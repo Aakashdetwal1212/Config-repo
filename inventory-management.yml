@@ -6,4 +6,11 @@ spring:
     password: aakash
   jpa:
     show-sql: true
-    generate-ddl: false    
+    generate-ddl: false
+eureka:
+  client:
+    fetch-registry: false
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://localhost:8761/ereka
+
